@@ -26,7 +26,7 @@ function ShopItemFunc(props) {
 }
 
 ShopItemFunc.propTypes = {
-    shopItem: PropTypes.instanceOf(ShopItem)
+    item: PropTypes.instanceOf(ShopItem).isRequired
 }
 
 export default ShopItemFunc;
